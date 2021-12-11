@@ -61,7 +61,7 @@ const getMostFrequentTransactingCustomer = (transactions_csv_file_path, n) => {
     });
 }
 
-getMostFrequentTransactingCustomer(testDataFiles[1], 3)
+getMostFrequentTransactingCustomer(testDataFiles[2], 10)
     .then((data) => {
         console.log(data);
     })
